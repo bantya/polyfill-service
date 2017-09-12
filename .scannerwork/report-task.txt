@@ -1,7 +1,0 @@
-organization=financial-times-github
-projectKey=polyfill-ft
-serverUrl=https://sonarcloud.io
-serverVersion=6.5.0.27571
-dashboardUrl=https://sonarcloud.io/dashboard/index/polyfill-ft
-ceTaskId=AV54PRt3XvuWY4K7qm1x
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AV54PRt3XvuWY4K7qm1x
