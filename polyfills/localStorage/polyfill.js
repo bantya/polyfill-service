@@ -19,10 +19,11 @@
 		removeItem: function () {
 			var key = String(arguments[0]);
 
-			for (key in this) {
-				delete this[key];
-
-				--this.length;
+			for (var k in this) {
+				if (this.hasOwnProperty(k)) {
+					delete this[key];
+					--this.length;
+				}
 			}
 
 			updateKeys();
